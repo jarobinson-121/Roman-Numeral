@@ -1,0 +1,25 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    int userNumerals;
+    string romNumerals [13] = {"I", "IV", "V", "IX", "X", "XL", "L", "XC", "C", "CD", "D", "CM", "M"};
+    int numEquivalent [13] = {1, 4, 5, 9, 10, 40, 50, 90, 100, 400, 500, 900, 1000};
+    int numTotal;
+    int i;
+    int userNumLength;
+
+    cout << "Enter roman numerals: ";
+    getline(cin, userNumerals);
+    cout << endl;
+
+    userNumLength = userNumerals.length();
+
+    for(i = 0; i <  13; ++i) {
+
+    }
+
+    cout << "0." << numTotal << endl;
+    return 0;
+}
